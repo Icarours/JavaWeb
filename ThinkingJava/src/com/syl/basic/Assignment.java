@@ -2,7 +2,7 @@ package com.syl.basic;
 
 /**
  * @ClassName: Assignment
- * @Description:
+ * @Description:两个对象指向的是同一个引用
  * @author Bright
  * @date 2017年7月6日 下午10:08:17
  */
