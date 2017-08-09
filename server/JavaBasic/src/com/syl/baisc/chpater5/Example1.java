@@ -23,6 +23,10 @@ public class Example1 {
 		};
 		myThread.start();
 		Thread thread = new Thread(new MyThread1());
+//		thread.setPriority(Thread.MAX_PRIORITY);//优先级10
+//		thread.setPriority(Thread.MIN_PRIORITY);//优先级1
+//		thread.setPriority(Thread.NORM_PRIORITY);//优先级5
+
 		thread.start();
 	}
 }
