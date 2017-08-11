@@ -2,7 +2,6 @@ package com.syl.baisc;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.logging.SimpleFormatter;
 
 /**
  * @ClassName: Example2
@@ -15,7 +14,7 @@ public class Example2 {
 		System.out.println(System.currentTimeMillis());
 		Date date = new Date(System.currentTimeMillis());
 		SimpleDateFormat format = new SimpleDateFormat("yyyy年MM月dd日    HH:mm:ss     ");
-		String format2 = format.format(date);
+		format.format(date);
 		System.out.println(format.format(date));
 	}
 }

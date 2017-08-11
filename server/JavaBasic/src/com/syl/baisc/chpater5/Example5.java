@@ -2,7 +2,7 @@ package com.syl.baisc.chpater5;
 
 /**
  * @ClassName: Example5
- * @Description:
+ * @Description: 线程休眠之后,有可能多卖出票
  * @author Bright
  * @date 2017年8月8日 下午11:40:20
  */

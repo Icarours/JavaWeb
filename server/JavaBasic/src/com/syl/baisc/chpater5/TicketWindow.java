@@ -12,6 +12,12 @@ class TicketWindow implements Runnable {
 	@Override
 	public void run() {
 		while (true) {
+			try {
+				Thread.sleep(10);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			if (tickets > 0) {
 				String threadName = Thread.currentThread().getName();
 				System.out.println(threadName + "正在发售,第" + tickets-- + "张票");
